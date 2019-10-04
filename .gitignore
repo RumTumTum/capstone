@@ -5,6 +5,10 @@
 
 # data and other files
 /data
+Icon
+Icon
+Icon[]
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
