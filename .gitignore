@@ -1,5 +1,6 @@
 # private
 *.sh
+*jupyter.sh
 "Icon\r"
 
 # data and other files
