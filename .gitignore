@@ -2,6 +2,9 @@
 *.sh
 "Icon\r"
 
+# data and other files
+/data
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
