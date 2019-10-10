@@ -1,2 +1,0 @@
-,epochs,layers,model_name,model_path,model_tags,num_layers,optimizer,score,timestamp,train_size,validation_size
-0,1,[],2019-10-10T200807_model.h5,models/2019-10-10T200807_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 20:08:07.849516,1,1
