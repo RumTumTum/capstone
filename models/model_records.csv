@@ -1,0 +1,8 @@
+epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,score,timestamp,train_size,validation_size
+1,[],2019-10-10T211053_model.h5,,models/2019-10-10T211053_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:10:53.796514,1,1
+1,[],2019-10-10T211056_model.h5,,models/2019-10-10T211056_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:10:56.404866,1,1
+1,[],2019-10-10T211112_model.h5,hello,models/2019-10-10T211112_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:11:12.708478,1,1
+1,[],2019-10-10T211115_model.h5,hello,models/2019-10-10T211115_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:11:15.211067,1,1
+1,[],2019-10-10T211116_model.h5,hello,models/2019-10-10T211116_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:11:16.248314,1,1
+1,[],2019-10-10T211129_model.h5,hello,models/2019-10-10T211129_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-10 21:11:29.360498,1,1
+1,[],2019-10-11T004440_model.h5,"test run after increasing train to 100_000, attempting to run while closing computer",models/2019-10-11T004440_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-11 00:44:40.465899,1,1
