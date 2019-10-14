@@ -8,3 +8,5 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-11T004440_model.h5,"test run after increasing train to 100_000, attempting to run while closing computer",models/2019-10-11T004440_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-11 00:44:40.465899,1,1
 1,[],2019-10-11T161725_model.h5,test run with ~1000 images to see if I can open file,models/2019-10-11T161725_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-11 16:17:25.955533,1,1
 1,[],2019-10-11T181803_model.h5,"test run with ~1000 images, using save_model(path)",models/2019-10-11T181803_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-11 18:18:03.877753,1,1
+1,[],2019-10-13T224638_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-13T224638_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-13 22:46:38.409506,1,1
+1,[],2019-10-13T231208_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-13T231208_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-13 23:12:08.724183,1,1
