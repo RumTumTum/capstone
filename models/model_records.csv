@@ -10,3 +10,9 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-11T181803_model.h5,"test run with ~1000 images, using save_model(path)",models/2019-10-11T181803_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-11 18:18:03.877753,1,1
 1,[],2019-10-13T224638_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-13T224638_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-13 22:46:38.409506,1,1
 1,[],2019-10-13T231208_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-13T231208_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-13 23:12:08.724183,1,1
+1,[],2019-10-14T153044_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-14T153044_model.h5,"{'tensorflow', 'keras'}",0,1,1,2019-10-14 15:30:44.529041,1,1
+1,[],2019-10-14T155036_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-14T155036_model.h5,"{'tensorflow', 'keras'}",0,1,1,2019-10-14 15:50:36.173946,1,1
+1,[],2019-10-14T174235_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-14T174235_model.h5,"{'tensorflow', 'keras'}",0,1,1,2019-10-14 17:42:35.160266,1,1
+1,[],2019-10-14T174315_model.h5,"test run with ~1000 images and ~200 valid size , using save_model(path)",models/2019-10-14T174315_model.h5,"{'tensorflow', 'keras'}",0,1,1,2019-10-14 17:43:15.894860,1,1
+1,[],2019-10-14T193159_model.h5,testing,models/2019-10-14T193159_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-14 19:31:59.079340,1,1
+1,[],2019-10-14T194331_model.h5,"24600 images, balanced across each category individually (approx 2500 from each cateogry) + ~12500 no hemorrhage, 10 epochs",models/2019-10-14T194331_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-14 19:43:31.080304,1,1
