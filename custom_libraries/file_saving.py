@@ -9,7 +9,7 @@ import keras
 # saving to cloud storage
 from datetime import datetime
 from google.cloud import storage
-import gcloud_storage #local py file
+from custom_libraries import gcloud_storage #local py file
 
 
 def save_model(model, model_tags = [],return_df=False, model_notes = ""):

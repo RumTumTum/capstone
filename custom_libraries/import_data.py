@@ -21,3 +21,43 @@ def clean_data_csv(data_path = "../data/", csv_name = 'stage_1_train.csv',shuffl
     data.reset_index(drop=True,inplace=True)
         
     return data
+
+def balanced_images_all_classes(image_list,n=2500,replace=False,random_state = 12345):
+    image_subset = [
+        image_list[image_list[category] ==1 ].sample(
+            n=n,
+            replace = replace, 
+            random_state = random_state)
+        for category
+        in ['epidural',
+            'intraparenchymal',
+            'intraventricular',
+            'subarachnoid',
+            'subdural']
+    ]
+    image_subset.append(
+        image_list[image_list['any'] == 0 ].sample(
+            n=n*5,
+            replace = replace, 
+            random_state = random_state)
+    )
+    
+    image_subset_combined = pd.concat(image_subset).drop_duplicates()
+    image_subset_combined.reset_index(inplace = True)
+    image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
+    return image_subset_combined
+
+
+def balanced_images_binary(image_list,n=2500,replace=False,random_state = 12345):
+    image_subset = [image_list[image_list['any'] ==1 ]]
+    image_subset.append(
+        image_list[image_list['any'] == 0 ].sample(
+            n=len(image_subset[0]),
+            replace = replace, 
+            random_state = random_state)
+    )
+    
+    image_subset_combined = pd.concat(image_subset).drop_duplicates()
+    image_subset_combined.reset_index(inplace = True)
+    image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
+    return image_subset_combined
