@@ -17,3 +17,6 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-14T193159_model.h5,testing,models/2019-10-14T193159_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-14 19:31:59.079340,1,1
 1,[],2019-10-14T194331_model.h5,"24600 images, balanced across each category individually (approx 2500 from each cateogry) + ~12500 no hemorrhage, 10 epochs",models/2019-10-14T194331_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-14 19:43:31.080304,1,1
 1,[],2019-10-19T020705_model.h5,test,models/2019-10-19T020705_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 02:07:05.253117,1,1
+1,[],2019-10-19T071459_model.h5,"test, binary, 512",models/2019-10-19T071459_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:14:59.072233,1,1
+1,[],2019-10-19T071537_model.h5,"test, binary, 512",models/2019-10-19T071537_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:15:37.685693,1,1
+1,[],2019-10-19T074255_model.h5,"test, binary, 512",models/2019-10-19T074255_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:42:55.813587,1,1

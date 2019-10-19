@@ -44,10 +44,10 @@ def balanced_images_all_classes(image_list,n=2500,replace=False,random_state = 1
             replace = replace, 
             random_state = random_state)
     )
-    return image_subset[0]
+   
     image_subset_combined = pd.concat(image_subset).drop_duplicates()
-    image_subset_combined.reset_index(drop=True, inplace = True)
     image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
+    image_subset_combined.reset_index(drop=True, inplace = True)
     return image_subset_combined
 
 
@@ -61,6 +61,6 @@ def balanced_images_binary(image_list,n=2500,replace=False,random_state = 12345)
     )
     
     image_subset_combined = pd.concat(image_subset).drop_duplicates()
-    image_subset_combined.reset_index(drop=True,inplace=True)
     image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
+    image_subset_combined.reset_index(drop=True,inplace=True)
     return image_subset_combined
