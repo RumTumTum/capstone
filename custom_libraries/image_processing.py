@@ -53,7 +53,7 @@ class DataGenerator(Sequence):
         'Initialization'
         self.dim = dim
         self.batch_size = batch_size
-        self.list_IDs = list_IDs_labels
+        self.list_IDs = list_IDs_labels.reset_index(drop=True)
         self.data_path = data_path
         self.on_epoch_end()
 
@@ -110,7 +110,7 @@ class DataGenerator_single_class(Sequence):
         'Initialization'
         self.dim = dim
         self.batch_size = batch_size
-        self.list_IDs = list_IDs_labels
+        self.list_IDs = list_IDs_labels.reset_index(drop=True)
         self.data_path = data_path
         self.on_epoch_end()
 

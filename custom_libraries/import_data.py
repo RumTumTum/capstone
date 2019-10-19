@@ -2,8 +2,10 @@
 import numpy as np
 import pandas as pd
 
-# Shuffle library
+# Various
 from sklearn.utils import shuffle
+from sklearn.model_selection import train_test_split
+
 
 def clean_data_csv(data_path = "../data/", csv_name = 'stage_1_train.csv',shuffle_data = True):
 
@@ -19,6 +21,7 @@ def clean_data_csv(data_path = "../data/", csv_name = 'stage_1_train.csv',shuffl
     else:
         data = data_pivot
     data.reset_index(drop=True,inplace=True)
+    data = pd.DataFrame(data,columns = list(data.columns))
         
     return data
 
@@ -41,9 +44,9 @@ def balanced_images_all_classes(image_list,n=2500,replace=False,random_state = 1
             replace = replace, 
             random_state = random_state)
     )
-    
+    return image_subset[0]
     image_subset_combined = pd.concat(image_subset).drop_duplicates()
-    image_subset_combined.reset_index(inplace = True)
+    image_subset_combined.reset_index(drop=True, inplace = True)
     image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
     return image_subset_combined
 
@@ -58,6 +61,6 @@ def balanced_images_binary(image_list,n=2500,replace=False,random_state = 12345)
     )
     
     image_subset_combined = pd.concat(image_subset).drop_duplicates()
-    image_subset_combined.reset_index(inplace = True)
+    image_subset_combined.reset_index(drop=True,inplace=True)
     image_subset_combined = shuffle(image_subset_combined,random_state = random_state)
     return image_subset_combined
