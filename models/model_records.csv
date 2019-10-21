@@ -25,3 +25,4 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-21T013017_model.h5,"test, binary, 512",models/2019-10-21T013017_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:30:17.505741,1,1
 1,[],2019-10-21T013140_model.h5,"test, binary, 512",models/2019-10-21T013140_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:31:40.354051,1,1
 1,[],2019-10-21T033555_model.h5,"165k train images, balanced across any and none, binary, 512",models/2019-10-21T033555_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 03:35:55.310261,1,1
+1,[],2019-10-21T051800_model.h5,"165k train images, balanced across any and none, binary, 512",models/2019-10-21T051800_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 05:18:00.485887,1,1
