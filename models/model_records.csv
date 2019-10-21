@@ -20,3 +20,8 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-19T071459_model.h5,"test, binary, 512",models/2019-10-19T071459_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:14:59.072233,1,1
 1,[],2019-10-19T071537_model.h5,"test, binary, 512",models/2019-10-19T071537_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:15:37.685693,1,1
 1,[],2019-10-19T074255_model.h5,"test, binary, 512",models/2019-10-19T074255_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-19 07:42:55.813587,1,1
+1,[],2019-10-21T012256_model.h5,"test, binary, 512",models/2019-10-21T012256_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:22:56.730828,1,1
+1,[],2019-10-21T012507_model.h5,"test, binary, 512",models/2019-10-21T012507_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:25:07.216196,1,1
+1,[],2019-10-21T013017_model.h5,"test, binary, 512",models/2019-10-21T013017_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:30:17.505741,1,1
+1,[],2019-10-21T013140_model.h5,"test, binary, 512",models/2019-10-21T013140_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 01:31:40.354051,1,1
+1,[],2019-10-21T033555_model.h5,"165k train images, balanced across any and none, binary, 512",models/2019-10-21T033555_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 03:35:55.310261,1,1
