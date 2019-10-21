@@ -34,12 +34,14 @@ def save_model(model, model_tags = [],return_df=False, model_notes = "", loss = 
     
     
     # model attributes
-    dim = dim
-    train_size = 1
-    validation_size = 1    
+    # added the below as input parameters
+#     dim = dim
+#     train_size = 1
+#     validation_size = 1    
+#     epochs = 1
+#     optimizer = 1
     #     train_data_class_imbalance = 
-    epochs = 1
-    optimizer = 1
+
     layers = []
     num_layers = len(layers)
 
@@ -57,6 +59,7 @@ def save_model(model, model_tags = [],return_df=False, model_notes = "", loss = 
         'timestamp': [timestamp],
         'model_notes': [model_notes],
     # model attributes
+        'dim': [dim],
         'train_size': [train_size],
         'validation_size': [validation_size],
         'epochs': [epochs],
