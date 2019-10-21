@@ -12,7 +12,7 @@ from google.cloud import storage
 from custom_libraries import gcloud_storage #local py file
 
 
-def save_model(model, model_tags = [],return_df=False, model_notes = ""):
+def save_model(model, model_tags = [],return_df=False, model_notes = "", loss = "", optimizer = "", dim = "", epochs = 0, train_size = 0, validation_size = 0):
     """
     Save model in the designated root folder
     Add a row to the model_records.csv with information about the current training run
@@ -34,6 +34,7 @@ def save_model(model, model_tags = [],return_df=False, model_notes = ""):
     
     
     # model attributes
+    dim = dim
     train_size = 1
     validation_size = 1    
     #     train_data_class_imbalance = 
