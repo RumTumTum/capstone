@@ -113,3 +113,31 @@ def save_model(model, model_tags = [],return_df=False, model_notes = ""):
 
     if return_df:
         return df
+    
+    
+
+def load_model(root = 'models/', records_output = True, model_output = False, model_file_path = ""):
+    """load previous models
+    Output:
+    df of records of previous models (if records_output == True and model_output == False)
+    .h5 file of specifified model (if records_output == False and model_output == True)
+    df of records, .h5 of mode (if records_output == True and model_output == True)
+    
+    Key arguments:
+    root = root folder - defaults to 'models/'
+    records_output: determines whether the records_df is output
+    model_output: determines whether the model .h5 file is output
+    model_file_path: file path of model, required when model_output = True
+    """
+
+    model_records_path = root+'model_records.csv'
+    df = pd.read_csv(model_records_path)
+    if not model_output:
+        return df
+    else:
+        
+        model = tf.keras.models.load_model(model_file_path)
+        if records_output:
+            return df, model
+        else:
+            return model

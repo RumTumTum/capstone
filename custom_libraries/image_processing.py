@@ -84,6 +84,7 @@ class DataGenerator(Sequence):
     def on_epoch_end(self):
         'Updates indexes after each epoch'
         self.indexes = np.arange(len(self.list_IDs))
+        
 
     def __data_generation(self, list_IDs_temp,list_label_temp):
         'Generates data containing batch_size samples' # X : (n_samples, *dim, n_channels)
