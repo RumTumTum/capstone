@@ -155,4 +155,6 @@ class DataGenerator_single_class(Sequence):
             X.append(resized)
         X=np.array(X).reshape(-1,self.dim[0],self.dim[1],1) # remove 1 or reshape to get viewable image
         y_train=np.asarray(list_label_temp) 
-        return X,y_train    
+        return X,y_train
+    
+
