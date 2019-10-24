@@ -331,6 +331,7 @@ def corrupted_images():
      'ID_28c4609b3',
      'ID_27757c171',
      'ID_a3128aa77',
+     'ID_6431af929', # the corrupted one
      'ID_ea2861e9a',
      'ID_7940bb7d0',
      'ID_b8665a653',
