@@ -28,3 +28,4 @@ epochs,layers,model_name,model_notes,model_path,model_tags,num_layers,optimizer,
 1,[],2019-10-21T051800_model.h5,"165k train images, balanced across any and none, binary, 512",models/2019-10-21T051800_model.h5,"{'keras', 'tensorflow'}",0,1,1,2019-10-21 05:18:00.485887,1,1,
 1,[],2019-10-24T044518_model.h5,"continuing 165k train images, balanced across any and none, binary, 512",models/2019-10-24T044518_model.h5,"{'keras', 'tensorflow'}",0,adam,1,2019-10-24 04:45:18.152352,164864,29056,512.0
 15,[],2019-10-24T135911_model.h5,"model_2, with dropout, 165k images, balanced across any and none, binary, 512",models/2019-10-24T135911_model.h5,"{'keras', 'tensorflow'}",0,adam,1,2019-10-24 13:59:11.733776,164864,29056,512.0
+2,[],2019-10-24T154029_model.h5,"model 1 starting ~90 valid acc; continuing 165k train images, balanced acrossany and none, binary, 512",models/2019-10-24T154029_model.h5,"{'keras', 'tensorflow'}",0,adam,1,2019-10-24 15:40:29.681138,164864,29056,512.0
